@@ -11,6 +11,7 @@ MAINTAINER KBase Developer
 
 COPY ./ /kb/module
 RUN mkdir -p /kb/module/work
+RUN mkdir -p /kb/module/work/tmp
 
 WORKDIR /kb/module
 
